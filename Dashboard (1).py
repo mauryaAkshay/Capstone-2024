@@ -24,7 +24,7 @@ if fl is not None:
     df = pd.read_csv(fl, encoding='ISO-8859-1')  # Read file directly from the uploaded object
 else:
     # Use a default file path if no file is uploaded
-    default_file_path = r"C:\Users\Dell\Desktop\Capstone-2024\Sample - Superstore.xls"
+    default_file_path = "Sample - Superstore.xls"
     df = pd.read_excel(default_file_path)
 
 # Sidebar filters
